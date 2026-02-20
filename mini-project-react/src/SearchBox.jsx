@@ -8,6 +8,7 @@ export default function SearchBox(){
 
     let handleChange = (evt) => {
         setCity(evt.target.value);
+        console.log("yyyyyyyyyy");
     };
 
     let handleSubmit = (evt) => {
