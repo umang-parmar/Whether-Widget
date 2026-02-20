@@ -11,6 +11,7 @@ export default function SearchBox(){
     };
 
     let handleSubmit = (evt) => {
+        console.log("ggggg");
         
     }
     return(
