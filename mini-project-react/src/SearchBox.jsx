@@ -36,11 +36,16 @@ export default function SearchBox({updateInfo}){
 
     let handleSubmit = async (evt) => {
         try{
+            setError(false);  
+
             evt.preventDefault();
             console.log(city);
+
             setCity("");
+
             let newInfo= await getWhetherInfo();
             updateInfo(newInfo);
+            
         }catch(err){
           setError(true);
 

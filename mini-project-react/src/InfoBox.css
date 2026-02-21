@@ -1,7 +1,36 @@
 .InfoBox {
-    text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
-.InfoBox .MuiCard-root {
-    margin: 0 auto;
+/* Card Design */
+.MuiCard-root {
+  width: 400px;
+  border-radius: 18px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-10px);
+}
+
+/* Card Content */
+.MuiCardContent-root {
+  background-color: #ffffff;
+}
+
+/* Headings */
+.InfoBox h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Weather text styling */
+.MuiTypography-body2 {
+  color: #333 !important;
+  font-size: 15px !important;
+  line-height: 1.6;
 }

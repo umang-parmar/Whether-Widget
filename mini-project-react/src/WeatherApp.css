@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  min-height: 100vh;
+}
+
+/* Main container */
+.app-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title Styling */
+.app-title {
+  font-size: 38px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
