@@ -12,6 +12,7 @@ export default function SearchBox(){
       let responce = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`);
       let jsonResponce=await responce.json();
       let result={
+        city:city,
         temp: jsonResponce.main.temp,
         tempMin: jsonResponce.main.temp_min,
         tempMax: jsonResponce.main.temp_max,

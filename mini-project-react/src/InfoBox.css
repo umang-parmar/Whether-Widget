@@ -1,0 +1,7 @@
+.InfoBox {
+    text-align: center;
+}
+
+.InfoBox .MuiCard-root {
+    margin: 0 auto;
+}
