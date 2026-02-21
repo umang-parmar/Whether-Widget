@@ -1,12 +1,10 @@
-import InfoBox from "./InfoBox"
-import SearchBox from "./SearchBox"
+import WeatherApp from "./WhetherApp"
 
 function App() {
 
   return (
     <> 
-      <SearchBox/>
-      <InfoBox/>
+      <WeatherApp/>
     </>
   )
 }
